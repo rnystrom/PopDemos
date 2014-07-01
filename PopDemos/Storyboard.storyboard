@@ -337,11 +337,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2GS-vu-gjC">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2GS-vu-gjC" userLabel="Container">
                                 <rect key="frame" x="183" y="286" width="338" height="197"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-qX-VSc">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-qX-VSc" userLabel="Facebook Logo">
                                         <rect key="frame" x="10" y="107" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <constraints>
@@ -349,7 +349,7 @@
                                             <constraint firstAttribute="width" constant="80" id="hmc-Ee-5rP"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kimon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eVB-hM-rAa">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kimon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eVB-hM-rAa" userLabel="Kimon Avatar">
                                         <rect key="frame" x="10" y="10" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <constraints>
@@ -357,7 +357,7 @@
                                             <constraint firstAttribute="height" constant="80" id="eft-tI-p8o"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kimon Tsinteris" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="rch-FU-JfE">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kimon Tsinteris" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="rch-FU-JfE" userLabel="Name Label">
                                         <rect key="frame" x="98" y="10" width="220" height="176"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.42999999999999999" colorSpace="calibratedRGB"/>
@@ -374,12 +374,12 @@
                                     <constraint firstAttribute="width" constant="338" id="Hne-NG-hyL"/>
                                     <constraint firstItem="rch-FU-JfE" firstAttribute="leading" secondItem="VQv-qX-VSc" secondAttribute="trailing" constant="8" id="QbX-Ye-mhD"/>
                                     <constraint firstItem="eVB-hM-rAa" firstAttribute="top" secondItem="2GS-vu-gjC" secondAttribute="top" constant="10" id="Ro1-0a-nXn"/>
-                                    <constraint firstAttribute="height" constant="197" id="cEZ-uz-bSN"/>
+                                    <constraint firstAttribute="height" constant="197" id="cEZ-uz-bSN" userLabel="ANIMATED CONSTRAINT"/>
                                     <constraint firstAttribute="bottom" secondItem="rch-FU-JfE" secondAttribute="bottom" constant="11" id="hUu-hN-NS0"/>
                                     <constraint firstAttribute="bottom" secondItem="VQv-qX-VSc" secondAttribute="bottom" constant="10" id="zVJ-DS-xdr"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ8-7X-lPV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ8-7X-lPV" userLabel="Demo Button">
                                 <rect key="frame" x="293" y="120" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>

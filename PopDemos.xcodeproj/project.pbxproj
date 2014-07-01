@@ -124,7 +124,6 @@
 				29542DDF19623B170003BFA6 /* PopDemos */,
 				29542DF819623B170003BFA6 /* PopDemosTests */,
 				29542DD719623B170003BFA6 /* Products */,
-				29542E0819623B8C0003BFA6 /* Storyboard.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +213,7 @@
 		29542E30196272950003BFA6 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				29542E0819623B8C0003BFA6 /* Storyboard.storyboard */,
 				29542E2B196269C50003BFA6 /* RWTAnimationsController.h */,
 				29542E2C196269C50003BFA6 /* RWTAnimationsController.m */,
 				29542E28196265490003BFA6 /* RWTAutoLayoutController.h */,
