@@ -20,6 +20,19 @@
 		29542DFD19623B170003BFA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29542DFB19623B170003BFA6 /* InfoPlist.strings */; };
 		29542DFF19623B170003BFA6 /* PopDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542DFE19623B170003BFA6 /* PopDemosTests.m */; };
 		29542E0919623B8C0003BFA6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29542E0819623B8C0003BFA6 /* Storyboard.storyboard */; };
+		29542E0C196242AB0003BFA6 /* RWTUIKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E0B196242AB0003BFA6 /* RWTUIKitController.m */; };
+		29542E121962452D0003BFA6 /* RWTRACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E111962452D0003BFA6 /* RWTRACController.m */; };
+		29542E1519624CC60003BFA6 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1319624CC60003BFA6 /* facebook-icon.png */; };
+		29542E1619624CC60003BFA6 /* facebook-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1419624CC60003BFA6 /* facebook-icon@2x.png */; };
+		29542E1919624D2B0003BFA6 /* RWTInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E1819624D2B0003BFA6 /* RWTInteractionController.m */; };
+		29542E1C1962520C0003BFA6 /* kimon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1A1962520C0003BFA6 /* kimon.png */; };
+		29542E1D1962520C0003BFA6 /* kimon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1B1962520C0003BFA6 /* kimon@2x.png */; };
+		29542E201962567B0003BFA6 /* rick.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1E1962567A0003BFA6 /* rick.png */; };
+		29542E211962567B0003BFA6 /* rick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29542E1F1962567A0003BFA6 /* rick@2x.png */; };
+		29542E24196256F60003BFA6 /* RWTCurtainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E23196256F60003BFA6 /* RWTCurtainController.m */; };
+		29542E271962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */; };
+		29542E2A196265490003BFA6 /* RWTAutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E29196265490003BFA6 /* RWTAutoLayoutController.m */; };
+		29542E2D196269C50003BFA6 /* RWTAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29542E2C196269C50003BFA6 /* RWTAnimationsController.m */; };
 		A5F553CB13724F53B09225B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083854A9142F44E5AB85647C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +65,26 @@
 		29542DFC19623B170003BFA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29542DFE19623B170003BFA6 /* PopDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemosTests.m; sourceTree = "<group>"; };
 		29542E0819623B8C0003BFA6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = PopDemos/Storyboard.storyboard; sourceTree = "<group>"; };
+		29542E0A196242AB0003BFA6 /* RWTUIKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTUIKitController.h; path = PopDemos/RWTUIKitController.h; sourceTree = "<group>"; };
+		29542E0B196242AB0003BFA6 /* RWTUIKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTUIKitController.m; path = PopDemos/RWTUIKitController.m; sourceTree = "<group>"; };
+		29542E101962452D0003BFA6 /* RWTRACController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTRACController.h; path = PopDemos/RWTRACController.h; sourceTree = "<group>"; };
+		29542E111962452D0003BFA6 /* RWTRACController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTRACController.m; path = PopDemos/RWTRACController.m; sourceTree = "<group>"; };
+		29542E1319624CC60003BFA6 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icon.png"; path = "PopDemos/facebook-icon.png"; sourceTree = "<group>"; };
+		29542E1419624CC60003BFA6 /* facebook-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icon@2x.png"; path = "PopDemos/facebook-icon@2x.png"; sourceTree = "<group>"; };
+		29542E1719624D2B0003BFA6 /* RWTInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTInteractionController.h; path = PopDemos/RWTInteractionController.h; sourceTree = "<group>"; };
+		29542E1819624D2B0003BFA6 /* RWTInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTInteractionController.m; path = PopDemos/RWTInteractionController.m; sourceTree = "<group>"; };
+		29542E1A1962520C0003BFA6 /* kimon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kimon.png; path = PopDemos/kimon.png; sourceTree = "<group>"; };
+		29542E1B1962520C0003BFA6 /* kimon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kimon@2x.png"; path = "PopDemos/kimon@2x.png"; sourceTree = "<group>"; };
+		29542E1E1962567A0003BFA6 /* rick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rick.png; path = PopDemos/rick.png; sourceTree = "<group>"; };
+		29542E1F1962567A0003BFA6 /* rick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rick@2x.png"; path = "PopDemos/rick@2x.png"; sourceTree = "<group>"; };
+		29542E22196256F60003BFA6 /* RWTCurtainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTCurtainController.h; path = PopDemos/RWTCurtainController.h; sourceTree = "<group>"; };
+		29542E23196256F60003BFA6 /* RWTCurtainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTCurtainController.m; path = PopDemos/RWTCurtainController.m; sourceTree = "<group>"; };
+		29542E251962591A0003BFA6 /* BCMeshTransform+DemoTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BCMeshTransform+DemoTransforms.h"; path = "PopDemos/BCMeshTransform+DemoTransforms.h"; sourceTree = "<group>"; };
+		29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BCMeshTransform+DemoTransforms.m"; path = "PopDemos/BCMeshTransform+DemoTransforms.m"; sourceTree = "<group>"; };
+		29542E28196265490003BFA6 /* RWTAutoLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTAutoLayoutController.h; path = PopDemos/RWTAutoLayoutController.h; sourceTree = "<group>"; };
+		29542E29196265490003BFA6 /* RWTAutoLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTAutoLayoutController.m; path = PopDemos/RWTAutoLayoutController.m; sourceTree = "<group>"; };
+		29542E2B196269C50003BFA6 /* RWTAnimationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWTAnimationsController.h; path = PopDemos/RWTAnimationsController.h; sourceTree = "<group>"; };
+		29542E2C196269C50003BFA6 /* RWTAnimationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWTAnimationsController.m; path = PopDemos/RWTAnimationsController.m; sourceTree = "<group>"; };
 		463632E023EB4867A185101B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,12 +116,15 @@
 		29542DCD19623B170003BFA6 = {
 			isa = PBXGroup;
 			children = (
-				29542E0819623B8C0003BFA6 /* Storyboard.storyboard */,
+				29542E2F1962727B0003BFA6 /* BCMeshTransform+DemoTransforms */,
+				29542E30196272950003BFA6 /* Demos */,
+				29542DD819623B170003BFA6 /* Frameworks */,
+				29542E2E196272760003BFA6 /* Images */,
+				463632E023EB4867A185101B /* Pods.xcconfig */,
 				29542DDF19623B170003BFA6 /* PopDemos */,
 				29542DF819623B170003BFA6 /* PopDemosTests */,
-				29542DD819623B170003BFA6 /* Frameworks */,
 				29542DD719623B170003BFA6 /* Products */,
-				463632E023EB4867A185101B /* Pods.xcconfig */,
+				29542E0819623B8C0003BFA6 /* Storyboard.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +187,47 @@
 				29542DFB19623B170003BFA6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29542E2E196272760003BFA6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				29542E1319624CC60003BFA6 /* facebook-icon.png */,
+				29542E1419624CC60003BFA6 /* facebook-icon@2x.png */,
+				29542E1A1962520C0003BFA6 /* kimon.png */,
+				29542E1B1962520C0003BFA6 /* kimon@2x.png */,
+				29542E1E1962567A0003BFA6 /* rick.png */,
+				29542E1F1962567A0003BFA6 /* rick@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		29542E2F1962727B0003BFA6 /* BCMeshTransform+DemoTransforms */ = {
+			isa = PBXGroup;
+			children = (
+				29542E251962591A0003BFA6 /* BCMeshTransform+DemoTransforms.h */,
+				29542E261962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m */,
+			);
+			name = "BCMeshTransform+DemoTransforms";
+			sourceTree = "<group>";
+		};
+		29542E30196272950003BFA6 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				29542E2B196269C50003BFA6 /* RWTAnimationsController.h */,
+				29542E2C196269C50003BFA6 /* RWTAnimationsController.m */,
+				29542E28196265490003BFA6 /* RWTAutoLayoutController.h */,
+				29542E29196265490003BFA6 /* RWTAutoLayoutController.m */,
+				29542E22196256F60003BFA6 /* RWTCurtainController.h */,
+				29542E23196256F60003BFA6 /* RWTCurtainController.m */,
+				29542E1719624D2B0003BFA6 /* RWTInteractionController.h */,
+				29542E1819624D2B0003BFA6 /* RWTInteractionController.m */,
+				29542E101962452D0003BFA6 /* RWTRACController.h */,
+				29542E111962452D0003BFA6 /* RWTRACController.m */,
+				29542E0A196242AB0003BFA6 /* RWTUIKitController.h */,
+				29542E0B196242AB0003BFA6 /* RWTUIKitController.m */,
+			);
+			name = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +308,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29542E1619624CC60003BFA6 /* facebook-icon@2x.png in Resources */,
+				29542E1519624CC60003BFA6 /* facebook-icon.png in Resources */,
 				29542DE419623B170003BFA6 /* InfoPlist.strings in Resources */,
+				29542E211962567B0003BFA6 /* rick@2x.png in Resources */,
 				29542DEC19623B170003BFA6 /* Images.xcassets in Resources */,
+				29542E201962567B0003BFA6 /* rick.png in Resources */,
+				29542E1D1962520C0003BFA6 /* kimon@2x.png in Resources */,
+				29542E1C1962520C0003BFA6 /* kimon.png in Resources */,
 				29542E0919623B8C0003BFA6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29542E271962591A0003BFA6 /* BCMeshTransform+DemoTransforms.m in Sources */,
+				29542E24196256F60003BFA6 /* RWTCurtainController.m in Sources */,
+				29542E121962452D0003BFA6 /* RWTRACController.m in Sources */,
+				29542E0C196242AB0003BFA6 /* RWTUIKitController.m in Sources */,
+				29542E2A196265490003BFA6 /* RWTAutoLayoutController.m in Sources */,
+				29542E1919624D2B0003BFA6 /* RWTInteractionController.m in Sources */,
 				29542DEA19623B170003BFA6 /* RWTAppDelegate.m in Sources */,
 				29542DE619623B170003BFA6 /* main.m in Sources */,
+				29542E2D196269C50003BFA6 /* RWTAnimationsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
