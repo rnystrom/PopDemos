@@ -24,6 +24,7 @@
     
     self.logs.text = @"";
     
+    // prepend text to our log view whenever the frame changes
     [[RACObserve(self.button, frame) deliverOn:RACScheduler.mainThreadScheduler] subscribeNext:^(NSValue *frameValue) {
         CGRect frame = frameValue.CGRectValue;
         NSString *text = [NSString stringWithFormat:@"x: %.2f, y: %.2f",frame.origin.x,frame.origin.y];
@@ -32,8 +33,10 @@
     }];
 }
 
-- (void)randomFrameForView:(UIView *)view {
+- (void)animateRandomFrameForView:(UIView *)view {
     CGRect viewFrame = self.view.bounds;
+    // random position
+    // don't change frame and position at the same time, Pop doesn't like that
     CGRect frame = CGRectMake(arc4random() % (int)viewFrame.size.width,
                               arc4random() % (int)viewFrame.size.height,
                               100,
@@ -49,7 +52,7 @@
 }
 
 - (IBAction)onButton:(id)sender {
-    [self randomFrameForView:sender];
+    [self animateRandomFrameForView:sender];
 }
 
 @end

@@ -35,6 +35,7 @@
     }
     else {
         CGRect bounds = self.view.bounds;
+        // middle of the view controller
         CGPoint center = CGPointMake(CGRectGetMidX(bounds), CGRectGetMidY(bounds));
         
         POPSpringAnimation *spring = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];

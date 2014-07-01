@@ -26,13 +26,15 @@
 }
 
 - (IBAction)onResize:(id)sender {
+    // random width between 150 max 450
     CGFloat rWidth = arc4random() % 300 + 150;
     
     POPSpringAnimation *spring = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
     spring.springBounciness = 20;
     spring.springSpeed = 20;
     
-    POPAnimatableProperty *property = [POPAnimatableProperty propertyWithName:@"" initializer:^(POPMutableAnimatableProperty *prop) {
+    POPAnimatableProperty *property = [POPAnimatableProperty propertyWithName:@"com.rwt.heightContstraint" initializer:^(POPMutableAnimatableProperty *prop) {
+        // note the object used is NSLayoutConstraint, the same object we assign the animation to
         prop.readBlock = ^(NSLayoutConstraint *constraint, CGFloat values[]) {
             values[0] = constraint.constant;
         };
@@ -41,6 +43,7 @@
             constraint.constant = values[0];
         };
         
+        // this helps Pop determine when the animation is over
         prop.threshold = 0.01;
     }];
     

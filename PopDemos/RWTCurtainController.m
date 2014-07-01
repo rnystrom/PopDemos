@@ -16,9 +16,9 @@
 
 @property (nonatomic, weak) IBOutlet BCMeshTransformView *transformView;
 @property (nonatomic, assign, getter = isOpen) BOOL open;
+
+// helper property to aid our animation
 @property (nonatomic, assign) CGPoint curtainOpenPoint;
-@property (nonatomic) BOOL drags;
-@property (nonatomic) CGFloat surplus;
 
 @end
 
@@ -26,6 +26,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // code used from BCMeshTransformView demo
+    // https://github.com/Ciechan/BCMeshTransformView
     
     UIView *container = [[UIView alloc] initWithFrame:self.transformView.bounds];
     container.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
@@ -42,12 +45,14 @@
     
     [self.transformView.contentView addSubview:container];
     
-    self.transformView.diffuseLightFactor = 0.5;
-    
     CATransform3D perspective = CATransform3DIdentity;
     perspective.m34 = -1.0/2000.0;
     
+    // 3d properties
     self.transformView.supplementaryTransform = perspective;
+    self.transformView.diffuseLightFactor = 0.5;
+    
+    // init to open
     [self setIdleTransform];
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];

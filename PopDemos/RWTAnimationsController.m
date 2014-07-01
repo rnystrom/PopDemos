@@ -21,6 +21,7 @@ CGFloat const AnimationsTopPadding = 100.f;
     return view.frame.origin.y != AnimationsTopPadding;
 }
 
+// determine if the view needs to animate up or down
 - (CGRect)nextFrameForView:(UIView *)view {
     BOOL goToTop = [self animateToTop:view];
     CGRect frame = view.frame;
@@ -47,11 +48,12 @@ CGFloat const AnimationsTopPadding = 100.f;
 }
 
 - (IBAction)onDecay:(id)sender {
-    // for demo purposes we dont want to interupt the animation
+    // for demo purposes we aren't interupting the animation
     if (! [sender pop_animationKeys]) {
         BOOL goToTop = [self animateToTop:sender];
         
         POPDecayAnimation *decay = [POPDecayAnimation animationWithPropertyNamed:kPOPLayerPositionY];
+        // velocity determines the delta of our property
         decay.velocity = @(goToTop?-900:900);
         
         [sender pop_addAnimation:decay forKey:@"decay"];
@@ -62,7 +64,6 @@ CGFloat const AnimationsTopPadding = 100.f;
     CGRect frame = [self nextFrameForView:sender];
     
     POPBasicAnimation *basic = [POPBasicAnimation animationWithPropertyNamed:kPOPViewFrame];
-    basic.fromValue = [NSValue valueWithCGRect:[sender frame]];
     basic.toValue = [NSValue valueWithCGRect:frame];
     
     [sender pop_addAnimation:basic forKey:@"basic"];

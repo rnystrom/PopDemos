@@ -23,6 +23,7 @@ CGFloat const UIKitDistanceFromEdge = 100;
 - (void)toggleView:(UIView *)view withPop:(BOOL)usePop {
     CGRect frame = view.frame;
     
+    // determine if the view should animate up or down
     BOOL goDown = frame.origin.y == UIKitDistanceFromEdge;
     
     if (goDown) {
