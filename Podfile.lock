@@ -1,0 +1,22 @@
+PODS:
+  - BCMeshTransformView (0.8.1)
+  - pop (1.0.6)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - BCMeshTransformView
+  - pop (~> 1.0)
+  - ReactiveCocoa (~> 2.3)
+
+SPEC CHECKSUMS:
+  BCMeshTransformView: 26a6b973338a900fc63e37d9e51a719e72aef3a5
+  pop: e518794da38942c05255eb64b36d894e70cb4f00
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+
+COCOAPODS: 0.33.1

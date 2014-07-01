@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Ryan Nystrom. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface RWTAppDelegate : UIResponder <UIApplicationDelegate>
 

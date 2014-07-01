@@ -1,0 +1,1 @@
+PODS_BCMESHTRANSFORMVIEW_OTHER_LDFLAGS = -lstdc++ -framework GLKit
